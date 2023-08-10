@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Barlow:wght@300;400&family=Bellefair&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  :root {
+    @apply text-white font-barlow font-light;
+  }
+
+  html {
+    @apply h-screen;
+  }
+
+  body {
+    @apply h-full overflow-hidden;
+  }
+
+  #__nuxt {
+    @apply h-full;
+  }
+
+  .navbar {
+    @apply py-8 pl-[6.5rem] pr-[15%] -ml-6 inline-block backdrop-blur-xl font-barlow-condensed text-[16px];
+    background-color: rgba(133, 133, 133, 0.289);
+  }
+
+  .navbar span {
+    @apply font-bold
+  }
+}
