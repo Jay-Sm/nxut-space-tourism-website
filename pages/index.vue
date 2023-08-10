@@ -1,6 +1,6 @@
 <template>
-  <div class="flex">
-    <div class="inline-block ml-[8rem] mt-[11%] h-[86%]">
+  <div class="flex justify-between items-end h-full w-full p-[8rem] pr-[15rem]">
+    <div class="inline-block">
       <h2 class="font-barlow-condensed text-[28px] inline-block">
         SO, YOU WANT TO TRAVEL TO
         <br>
@@ -12,7 +12,7 @@
       </p>
     </div>
     <div
-      class="mt-[14rem] ml-[28rem] bg-white h-[274px] w-[274px] rounded-full text-black flex justify-center items-center font-bellefair text-[32px]">
+      class="ml-[5rem] bg-white min-h-[274px] min-w-[274px] rounded-full text-black flex justify-center items-center font-bellefair text-[32px]">
       EXPLORE
     </div>
   </div>

@@ -27,7 +27,7 @@
       </nav>
     </header>
 
-    <main class="inline-block">
+    <main class="inline-block h-[86%] w-full">
       <slot />
     </main>
   </div>
