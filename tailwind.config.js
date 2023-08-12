@@ -17,6 +17,7 @@ module.exports = {
       },
       backgroundImage: {
         "background-home-desktop": "url('./assets/images/home/background-home-desktop.jpg')",
+        "background-technology-desktop": "url('./assets/images/background-technology-desktop.jpg')",
       },
     },
   },
