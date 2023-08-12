@@ -6,22 +6,42 @@
       </div>
       <div class="border-b-2 border-white my-auto ml-2 h-0 w-[42rem] min-w-[90px] opacity-20 z-10"></div>
       <nav class="navbar">
-        <ul class="flex gap-x-[4rem]">
+        <ul class="flex items-center gap-x-[4rem] h-full ">
           <li>
-            <span>00</span>
-            HOME
+            <NuxtLink to="/" class="h-full flex items-center">
+              <div>
+                <span>00</span>
+                HOME
+              </div>
+            </NuxtLink>
+            <div class="active-bar" :class="{ active: true }"></div>
           </li>
           <li>
-            <span>01</span>
-            DESTINATION
+            <NuxtLink to="#" class="h-full flex items-center">
+              <div>
+                <span>01</span>
+                DESTINATION
+              </div>
+            </NuxtLink>
+            <div class="active-bar"></div>
           </li>
           <li>
-            <span>02</span>
-            CREW
+            <NuxtLink to="#" class="h-full flex items-center">
+              <div>
+                <span>02</span>
+                CREW
+              </div>
+            </NuxtLink>
+            <div class="active-bar"></div>
           </li>
           <li>
-            <span>03</span>
-            TECHNOLOGY
+            <NuxtLink to="#" class="h-full flex items-center">
+              <div>
+                <span>03</span>
+                TECHNOLOGY
+              </div>
+            </NuxtLink>
+            <div class="active-bar"></div>
           </li>
         </ul>
       </nav>

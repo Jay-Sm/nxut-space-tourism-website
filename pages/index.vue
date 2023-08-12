@@ -11,8 +11,7 @@
         the edge of it. Well sit back, and relax because we’ll give you a truly out of this world experience!
       </p>
     </div>
-    <div
-      class="ml-[5rem] bg-white min-h-[274px] min-w-[274px] rounded-full text-black flex justify-center items-center font-bellefair text-[32px]">
+    <div class="explore">
       EXPLORE
     </div>
   </div>

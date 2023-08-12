@@ -22,11 +22,39 @@
   }
 
   .navbar {
-    @apply py-8 pl-[6.5rem] pr-[15%] -ml-6 inline-block backdrop-blur-xl font-barlow-condensed text-[16px];
+    @apply h-[5.375rem] pl-[6.5rem] pr-[15%] -ml-6 inline-block backdrop-blur-xl font-barlow-condensed text-[16px] tracking-[3px];
     background-color: rgba(133, 133, 133, 0.289);
   }
 
-  .navbar span {
-    @apply font-bold
+  .navbar ul span {
+    @apply font-bold;
+  }
+
+  .navbar li {
+    @apply h-full flex items-center justify-center min-w-max relative;
+  }
+
+  .navbar li .active-bar {
+    @apply absolute bottom-0 h-[0px];
+    background-color: rgba(255, 255, 255, 0.404);
+    transition: height ease;
+    transition-duration: 150ms;
+  }
+  .navbar li:hover .active-bar {
+    @apply !h-[3px];
+  }
+  .navbar li .active-bar.active {
+    @apply !h-[3px] bg-white;
+  }
+
+  .navbar li div {
+    @apply w-full;
+  }
+
+  .explore {
+    @apply ml-[5rem] bg-white min-h-[274px] min-w-[274px] rounded-full text-black flex justify-center items-center font-bellefair text-[32px] cursor-pointer;
+    @apply outline outline-[0px] hover:outline-[4.5rem] transition-[outline];
+
+    outline-color: rgba(255, 255, 255, 0.29);
   }
 }
