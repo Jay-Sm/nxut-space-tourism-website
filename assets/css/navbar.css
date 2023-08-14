@@ -1,0 +1,34 @@
+@layer components {
+  .navbar {
+    @apply h-[5.375rem] pl-[6.5rem] pr-[15%] -ml-6 inline-block backdrop-blur-xl font-barlow-condensed text-[16px] tracking-[3px];
+    background-color: rgba(133, 133, 133, 0.289);
+  }
+
+  .navbar ul span {
+    @apply font-bold;
+  }
+
+  .navbar li {
+    @apply h-full flex items-center justify-center min-w-max relative;
+  }
+
+  li .active-bar {
+    @apply absolute bottom-0 h-[0px];
+    background-color: rgba(255, 255, 255, 0.404);
+    transition: height ease;
+    transition-duration: 150ms;
+  }
+  li .router-link-active .active-bar {
+    @apply !h-[3px] bg-white;
+  }
+  li:hover .active-bar {
+    @apply !h-[3px];
+  }
+  li .active-bar.active {
+    @apply !h-[3px] bg-white;
+  }
+
+  .navbar li div {
+    @apply w-full;
+  }
+}

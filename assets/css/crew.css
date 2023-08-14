@@ -1,0 +1,8 @@
+@layer components {
+  .crew-selection {
+    @apply w-4 h-4 bg-white opacity-[17%] rounded-full hover:opacity-50;
+  }
+  .crew-selection.active {
+    @apply opacity-100
+  }
+}

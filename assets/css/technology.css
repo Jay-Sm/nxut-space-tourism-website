@@ -1,0 +1,10 @@
+@layer components {
+  .tech-selection {
+    @apply border  rounded-full w-[4rem] h-[4rem] text-3xl font-bellefair hover:border-white;
+    border-color: rgba(255, 255, 255, 0.4);
+  }
+
+  .tech-selection.active {
+    @apply border-none bg-white text-black;
+  }
+}

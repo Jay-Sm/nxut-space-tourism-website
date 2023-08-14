@@ -1,0 +1,8 @@
+@layer components {
+  .explore {
+    @apply ml-[5rem] bg-white min-h-[274px] min-w-[274px] rounded-full text-black flex justify-center items-center font-bellefair text-[32px] cursor-default select-none;
+    @apply outline outline-[0px] hover:outline-[4.5rem] transition-[outline];
+
+    outline-color: rgba(255, 255, 255, 0.29);
+  }
+}

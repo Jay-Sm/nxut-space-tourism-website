@@ -1,5 +1,5 @@
 <template>
-  <div class="h-full flex flex-col justify-center pl-[6rem]">
+  <div class="h-full flex flex-col justify-center pl-[7rem]">
     <div class="my-auto">
       <h2 class="font-barlow-condensed text-[28px] tracking-[3px]"><span class="font-semibold opacity-25">03</span> SPACE
         LAUNCH 101</h2>
@@ -66,7 +66,6 @@ function changeTech(index) {
       techImg.value = techImg3
       break;
   }
-  // console.log(index - 1)
 }
 
 

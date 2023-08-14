@@ -1,0 +1,17 @@
+@layer components {
+  :root {
+    @apply text-white font-barlow font-light;
+  }
+
+  html {
+    @apply h-screen;
+  }
+
+  body {
+    @apply h-full overflow-hidden;
+  }
+
+  #__nuxt {
+    @apply h-full;
+  }
+}

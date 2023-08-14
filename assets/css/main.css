@@ -1,72 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;600&family=Barlow:wght@300;400&family=Bellefair&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;600&family=Barlow:wght@300;400&family=Bellefair&display=swap");
+@import "root.css";
+@import "navbar.css";
+@import "home.css";
+@import "technology.css";
+@import "crew.css";
+
+
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@layer components {
-  :root {
-    @apply text-white font-barlow font-light;
-  }
-
-  html {
-    @apply h-screen;
-  }
-
-  body {
-    @apply h-full overflow-hidden;
-  }
-
-  #__nuxt {
-    @apply h-full;
-  }
-
-  .navbar {
-    @apply h-[5.375rem] pl-[6.5rem] pr-[15%] -ml-6 inline-block backdrop-blur-xl font-barlow-condensed text-[16px] tracking-[3px];
-    background-color: rgba(133, 133, 133, 0.289);
-  }
-
-  .navbar ul span {
-    @apply font-bold;
-  }
-
-  .navbar li {
-    @apply h-full flex items-center justify-center min-w-max relative;
-  }
-
-  li .active-bar {
-    @apply absolute bottom-0 h-[0px];
-    background-color: rgba(255, 255, 255, 0.404);
-    transition: height ease;
-    transition-duration: 150ms;
-  }
-  li .router-link-active .active-bar {
-    @apply !h-[3px] bg-white;
-  }
-  li:hover .active-bar {
-    @apply !h-[3px];
-  }
-  li .active-bar.active {
-    @apply !h-[3px] bg-white;
-  }
-
-  .navbar li div {
-    @apply w-full;
-  }
-
-  .explore {
-    @apply ml-[5rem] bg-white min-h-[274px] min-w-[274px] rounded-full text-black flex justify-center items-center font-bellefair text-[32px] cursor-default select-none;
-    @apply outline outline-[0px] hover:outline-[4.5rem] transition-[outline];
-
-    outline-color: rgba(255, 255, 255, 0.29);
-  }
-
-
-  .tech-selection {
-    @apply border rounded-full w-[4rem] h-[4rem] text-3xl font-bellefair hover:opacity-70
-  }
-
-  .tech-selection.active {
-    @apply border-none bg-white text-black hover:opacity-100
-  }
-}
