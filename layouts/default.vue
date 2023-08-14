@@ -1,5 +1,5 @@
 <template>
-  <div class="h-full pt-11 bg-background-home-desktop bg-cover background-div">
+  <div class="h-full pt-11 bg-cover background-div">
     <header class="flex justify-end">
       <div class="flex flex-col justify-center mx-auto">
         <img src="../assets/images/shared/logo.svg" alt="" class="min-w-[48px] h-[48px] mx-4">
