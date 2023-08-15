@@ -67,7 +67,7 @@ function changeCrew(index) {
       crewDesc.value = data.crew[index - 1].bio
       crewImg.value = crewImg1
       break;
-      
+
     case 2:
       crewIndex.value = index
       crewName.value = data.crew[index - 1].name
@@ -75,22 +75,22 @@ function changeCrew(index) {
       crewDesc.value = data.crew[index - 1].bio
       crewImg.value = crewImg2
       break;
-      
-      case 3:
-        crewIndex.value = index
-        crewName.value = data.crew[index - 1].name
-        crewRole.value = data.crew[index - 1].role
-        crewDesc.value = data.crew[index - 1].bio
-        crewImg.value = crewImg3
-        break;
-      
-      case 4:
-        crewIndex.value = index
-        crewName.value = data.crew[index - 1].name
-        crewRole.value = data.crew[index - 1].role
-        crewDesc.value = data.crew[index - 1].bio
-        crewImg.value = crewImg4
-        break;
+
+    case 3:
+      crewIndex.value = index
+      crewName.value = data.crew[index - 1].name
+      crewRole.value = data.crew[index - 1].role
+      crewDesc.value = data.crew[index - 1].bio
+      crewImg.value = crewImg3
+      break;
+
+    case 4:
+      crewIndex.value = index
+      crewName.value = data.crew[index - 1].name
+      crewRole.value = data.crew[index - 1].role
+      crewDesc.value = data.crew[index - 1].bio
+      crewImg.value = crewImg4
+      break;
   }
 }
 </script>
