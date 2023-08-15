@@ -7,7 +7,7 @@
       </h2>
     </div>
     <div class="flex justify-between items-center h-full">
-      <div class="h-[70%] flex flex-col justify-between">
+      <div class="min-h-[350px] my-auto flex flex-col justify-between">
         <div>
           <h2 class="font-bellefair text-[32px] opacity-50">
             {{ crewRole }}
@@ -15,7 +15,7 @@
           <h1 class="font-bellefair text-[56px] ">
             {{ crewName }}
           </h1>
-          <p class="w-[28rem] text-[18px]">
+          <p class="w-[28rem] text-[18px] h-[8.5rem]">
             {{ crewDesc }}
           </p>
         </div>
@@ -27,7 +27,7 @@
         </div>
       </div>
       <div>
-        <img :src="crewImg" class="max-w-[80%]">
+        <img :src="crewImg" class="h-[481px] min-w-[409px]">
         <!-- min-w-[28rem] -->
       </div>
     </div>
